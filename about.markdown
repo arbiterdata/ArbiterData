@@ -9,7 +9,7 @@ A note from the Founder and Owner of Arbiter Data Edward Franklin.
 
 I started Arbiter Data to solve business problems using software.
 
-My formative business experience was at PwC where I trained as Charterted Accountant. I went into dozens and dozens of businesses to check their accounts and records. Time and time again - no matter the size, the industry, the industry - I found records which were:
+My formative business experience was at PwC where I trained as Charterted Accountant. I went into dozens and dozens of businesses to check their accounts and records. Time and time again - no matter the size, the industry, the place - I found records which were:
 out of date,
 incomplete,
 contained errors,
