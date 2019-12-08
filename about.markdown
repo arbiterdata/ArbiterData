@@ -50,6 +50,8 @@ Arbiter Data has a different philosophy to most software developers. Because I'v
 In practice Aribter Data's philosohpy means:
 
 - We make software which works with Excel. 
-- We build software which is bespoke to your business, your processes, your terminology. Whether it is an automation tool made for a specific process in your business. Or a web application to imports, analyse, visualise and export data specific to your business. With our software there is no need for "change management" or "transformation" becaue we build software which is designed around your business.
+- We build software which is bespoke to your business, your processes, your terminology.
+
+Whether it is an automation tool made for a specific process in your business. Or a web application to imports, analyse, visualise and export data specific to your business. With our software there is no need for "change management" or "transformation" becaue we build software which is designed around your business.
 
 So perhaps you're making time consuming tables and graphs in Excel on a monthly basis for a report. Or you are using a spreadsheet to keep track of some important information (like leases, fixed assets, software licenses, holiday, share schemes) but get worried it might have errors in it. Or you've got a financial model in Excel which has got so big you aren't quite sure how it works and when you 'play around' with it, it often crashes. Or you are using a spreadsheet to reconcile data from one system to another using various tricks like vlookups, index matches & sumifs. Then get in touch. At Arbiter Data we'll build something which will make your life easier.
