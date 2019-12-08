@@ -21,9 +21,9 @@ My formative business experience was at PwC where I trained as a Charterted Acco
 
 - didn't contain what they were supposed to.
 
-After PwC I worked at a Fin-Tech start up Oxygen Finance where I learnt about software & accounting systems - such as ERPs - and how you get these systems to 'talk to each other'.
+After PwC I worked at a Fin-Tech where I learnt about software & accounting systems - such as ERPs - and how you get these systems to 'talk to each other'.
 
-At Oxygen we had all the state of the art - and very expensive - Microsoft productivity tools such as SharePoint, OneDrive, PowerBI, Teams etc. But even with all the expensive software we ended up doing most of our work in various spreadsheets which were 'handed off' between  colleagues which would inevitably:
+At this company we had state of the art - and very expensive - Microsoft productivity tools such as SharePoint, OneDrive, PowerBI, Teams etc. But even with all this we ended up doing most of our work in various spreadsheets which were 'handed off' between colleagues which would inevitably:
 
 - get out of sync,
 
@@ -36,6 +36,7 @@ The root cause of these problems isn't people. It is technology. And the technol
 - virtually non-existant version control,
 
 - accountability
+
 - or auditability.
 
 Managing these spreadsheets would end up consuming significant amounts of time as people would 'fudge the numbers' or 'make things work'. These unreliable spreadsheets would then create more disruption as people would waste time in meetings querying whether the numbers were right (which they usually weren't).
