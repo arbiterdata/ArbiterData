@@ -17,11 +17,11 @@ My formative business experience was at PwC where I trained as a Charterted Acco
 
 - contained errors,
 
-- confusing and
+- confusing
 
-- didn't contain what they were supposed to.
+- and didn't contain what they were supposed to.
 
-After PwC I worked at a Fin-Tech where I learnt about software & accounting systems - such as ERPs - and how you get these systems to 'talk to each other'.
+After PwC I worked at a Fin-Tech company where I learnt about software & accounting systems and how you get these systems to 'talk to each other'.
 
 At this company we had state of the art - and very expensive - Microsoft productivity tools such as SharePoint, OneDrive, PowerBI, Teams etc. But even with all this we ended up doing most of our work in various spreadsheets which were 'handed off' between colleagues which would inevitably:
 
@@ -35,10 +35,24 @@ The root cause of these problems isn't people. It is technology. And the technol
 
 - virtually non-existant version control,
 
-- accountability
+- accountability,
 
 - or auditability.
 
 Managing these spreadsheets would end up consuming significant amounts of time as people would 'fudge the numbers' or 'make things work'. These unreliable spreadsheets would then create more disruption as people would waste time in meetings querying whether the numbers were right (which they usually weren't).
 
 This problem of unreliable, confusing and time consuming spreadsheets is only getting worse due to the proliferation of data and the desire of business leaders to make data driven decisions.
+
+So to resolve this problem at Arbiter Data we build enterprise software which is better than Excel so that businesses can:
+
+- process data faster,
+
+- trust their records,
+
+- and save time.
+
+
+The Nobel Prize winning Physicist Richard Feynman once said:
+"Mathematics is just tricky ways of doing things that would otherwise be laborious".
+
+At ArbiterData we view coding and programming as tricky ways of doing things that are currently laborious.
