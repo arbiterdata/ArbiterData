@@ -11,8 +11,9 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; margin : auto; }
-.centre_img { margin: auto; }
+img { vertical-align: middle; text-align: right; margin: auto}
+
+.center_img { margin: 0}
 
 /** Videos */
 .mp4 {display: block; margin: auto;}
