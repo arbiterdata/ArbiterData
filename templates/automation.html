@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .card{
+        max-width: 250px;
+    }
+    
+    .card-deck{
+        margin: 0 auto;
+    }
+
+</style>
+
+<div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">How an Arbiter Data Excel automation works</h2>
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+    <ol class="carousel-indicators text-dark">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active text-dark"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="text-dark"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="text-dark"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img class="d-block w-100 mx-auto" src="{% static 'imgs/ExcelAutomation1.png' %}" alt="First slide">
+      </div>
+      <div class="carousel-item">
+          <img class="d-block w-100 mx-auto" src="{% static 'imgs/ExcelAutomation2.png' %}" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 mx-auto" src="{% static 'imgs/ExcelAutomation3.png' %}" alt="Third slide">
+      </div>
+    </div>
+    
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <p class="text-center text-secondary">The illustration above could be expected to take a few seconds.</p>
+
+  <span class="d-block p-1 bg-secondary bg-gradient text-white w-75 mx-auto"></span>
+
+  <div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">How Arbiter Data builds an Excel automation</h2>
+    </div>
+
+<div style="max-width: 1000px;" class="mx-auto p-3 ">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck">
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/VideoCamera.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Design</h5>
+                    <li>Share source data and outputs</li>
+                    <li>Screen share video call</li>
+                    <li>Scope and fee</li>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/Build.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Build</h5>
+                    <li>Dedicated website</li>
+                    <li>Dedicated Python server</li>
+                    <li>Python automation code</li>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/Bug.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Test</h5>
+                    <li>Deploy website</li>
+                    <li>Client tests automation</li>
+                    <li>Resolve snags</li>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+  <span class="d-block p-1 bg-secondary bg-gradient text-white w-75 mx-auto"></span>
+  
+  <div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">After the automation</h2>
+    </div>
+  
+<div style="max-width: 1000px;" class="mx-auto p-3">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck mx-auto">
+            <div class="card justify-content-center">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/maintenance.png' %}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title text-center">Maintenance</h5>
+                <p class="card-text text-center">After the automation is build Arbiter Data maintains the website, server and code for a small recurring fee</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/gears.png' %}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title text-center">Additional automations</h5>
+                <p class="card-text text-center">Once your dedicated website and server is built it is a blank canvas for additional automations</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .card{
+        max-width: 250px;
+    }
+    
+    .card-deck{
+        margin: 0 auto;
+    }
+
+</style>
+
+<div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">Get in touch</h2>
+</div>
+
+<div style="max-width: 1000px;" class="mx-auto p-3 ">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck">
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/email.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Send us an email</h5>
+                    <p class="card-text text-center">If you are interested in learning more about how Arbiter Data can help you, please feel free to send us an email</p>
+                    <p class="card-text text-center">enquries@arbiterdata.com</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+ 
+{% endblock %}

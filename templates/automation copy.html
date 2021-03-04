@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .scrollspy-example-2{
+        position: relative;
+    }
+
+    .scroller{
+        max-height:600px;
+        overflow: auto;
+    }
+</style>
+
+<div class="bd-example pt-2">
+    <div class="row">
+      <div class="col-3">
+        <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column p-1">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link active" href="#item-1">Problems with Excel</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3 my-1" href="#item-1-1">Data Integrity</a>
+              <a class="nav-link ml-3 my-1" href="#item-1-2">Speed</a>
+              <a class="nav-link ml-3 my-1" href="#item-1-3">Manual</a>
+              <a class="nav-link ml-3 my-1" href="#item-1-4">Traceability</a>
+            </nav>
+            <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-2">Python to automate Excel</a>
+                <a class="nav-link ml-3 my-1" href="#item-2-1">Python in the cloud</a>
+                <a class="nav-link ml-3 my-1" href="#item-2-2">Hallmarks of potential Python migration</a>
+            </nav>
+            <a class="nav-link" href="#item-3">Arbiter Data automation approach</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3 my-1" href="#item-3-1">Design</a>
+              <a class="nav-link ml-3 my-1" href="#item-3-2">Build</a>
+              <a class="nav-link ml-3 my-1" href="#item-3-3">Test</a>
+              <a class="nav-link ml-3 my-1" href="#item-3-4">Post project</a>
+              <a class="nav-link ml-3 my-1" href="#item-3-5">Costs</a>
+            </nav>
+            <a class="nav-link" href="#item-4">Contact us</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-9 scroller p-1">
+        <div data-spy="scroll" data-target="#navbar-example3" data-offset="0" class="scrollspy-example-2">
+          <h4 id="item-1">Problems with Excel</h4>
+          <p>Excel is one of the greatest software packages ever built. Its flexibility, power and ease of adoption has made it a cornerstone business processes. It can be used to store data, process calculuations and generate reporting. However it suffers from a variety of weaknesses which make it an unreliable, slow and risky tool.</p>
+    
+            <h5 id="item-1-1">Data Integrity</h5>
+            <p>due to how Excel is designed it is impossible to be confident that data in the spreadsheet is robust. Anybody who has accidentally deleted or modified data</p>
+            
+            <h5 id="item-1-2">Speed</h5>
+            <p>as spreadsheets grow and have functionality added to them they slow down and eventually become a drain on productivity as users have to wait for Excel to process even very small changes</p>
+            
+            <h5 id="item-1-3">Manual</h5>
+            <p>to make Excel do anything users have to open it and import & cleanse data, modify formulas and format the output. These manual processes are error prone, time consuming</p>
+            
+            <h5 id="item-1-4">Traceability</h5>
+            <p>due to the flexibility of Excel inputs, processing and outputs can be difficult (and in some circumstances) impossible to trace. This lack of tracability means spreadsheets can become difficult or impossible to be managed by anybody other than who created it in the first instance</p>
+            
+          <h4 id="item-2">Python Excel automation</h4>
+          <p>Python is a programming language with Excel like modules. It has all of the data processing capability of Excel and has all the formatting capabilities of Excel. Due to Python's power processses that can take hours in Excel can be completed in seconds in Python.</p>
+            
+            <h5 id="item-2-1">Python in the cloud</h5>
+            <p>Most organisations do not have suitable IT infrastructure to host Python programs. At Arbiter Data we resolve this problem by building cloud servers to host Python programs which means busineses can access their Python programs via a website.</p>
+
+            <h5 id="item-2-2">Hallmarks of potential Python migration</h5>
+            <p>Oonce a spreadsheet is used repetitively, automation should be considered. Spreadsheets with the following hallmarks are good candidates for automation</p>
+                <ul>
+                    <li>Slow to open</li>
+                    <li>Unresponsive to changes in data & formulas</li>
+                    <li>Various inputs</li>
+                    <li>Vlookups</li>
+                    <li>Index Matching</li>
+                    <li>Sum Ifs</li>
+                    <li>Pivot Tables</li>
+                    <li>Multiple tabs</li>
+                    <li>Graphical outputs</li>
+                    <li>Summary table outputs</li>
+                    <li>Calculators</li>
+                </ul>
+                            
+          <h4 id="item-3">Arbiter Data automation approach</h4>
+            <h5 id="item-3-1">Design</h5>
+            <p>Every businesses and every spreadsheet is different. Therefore the first step is to understand your existing processes and spreadsheets.</p>
+            <p>The next step is a video call where you show us your spreadsheet and how you use it</p>
+            <p>Send us your spreadsheets and the associated source data.</p>
+            <p>Provide a scope and quote for the project</p>
+
+            <h5 id="item-3-2">Build</h5>
+            <p>Once you are happy we start building<p>
+                <ul>
+                    <li>your website which acts as portal for data input and output</li>
+                    <li>your server to host the programm</li>    
+                    <li>your Python program to automate the spreadsheet</li>
+                </ul>
+
+            <h5 id="item-3-3">Test</h5>
+            <p>In the first instance we will generate unformatted spreadsheet outputs (typically .csv files). You can choose to have outputs formatted and turned into graphs & tables.</p>
+            <p>The Python program is then deployed for your use where you can test that it works as expected and Arbiter Data can fix snagging issues</p>
+
+            <h5 id="item-3-4">Post project</h5>
+            <ul>
+                <li>Consider whether storing data in the cloud & databases is appropriate</li>
+                <li>Consider new reporting that was previousy impossible due to the limitations of Excel</li>
+                <li>Consider the scope for Automation elsewhere in the organisation</li>
+            </ul>
+
+            <h5 id="item-3-3">Costs</h5>
+            <ul>
+                <li>One off implementation associated with design, build and test</b></li>
+                <li>Recurring maintenance fee associated with server and website administration</li>
+                <p>The main cost is the implementation fee.</p>
+            </ul>
+
+            <h4 id="item-4">Contact us</h4>
+            <p>If you are interested in having an Automation built for your business by Arbiter Data send an email to [ ].</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script> 
+  $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
+  // do something...
+}) 
+</script>
+{% endblock %}

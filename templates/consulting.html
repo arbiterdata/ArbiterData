@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .card{
+        max-width: 250px;
+    }
+    
+    .card-deck{
+        margin: 0 auto;
+    }
+
+</style>
+
+<div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">Arbiter Data consulting services</h2>
+</div>
+
+
+
+<div style="max-width: 1000px;" class="mx-auto p-3 ">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck">
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/technologyduediligence.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Technology Due Diligence</h5>
+                    <p class="card-text text-center">When buying a business or joining as senior management increasingly the key to success is leveraging technology.</p>
+                    <p class="card-text text-center">Arbiter Data is uniquely placed to provide an independent and informed view over the technology and processes of a target business.</p>
+                    <p class="card-text text-center">We explain the systems a business is using, how they fit together to run the business, propose opportunities for enhancements and follow up with actual solutions.</p>
+                
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/financialduediligence.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Financial Due Diligence</h5>
+                    <p class="card-text text-center">Our profesional origins lie in financial due diligence. Along with providing insight and comfort associated with traditional financial due diligence we integrate this with technology to explain how the business works underneath.</p>
+                    <p class="card-text text-center">Armed with this knowledge management teams can hit the ground running post acquisition.</p>
+                
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/advice.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    
+                    <h5 class="card-title text-center">Advisory</h5>
+                    <p class="card-text text-center">Technology is a full of baffling jargon. Whether it be Kubernetes, the Cloud or APIs.</p>
+                    <p class="card-text text-center">Arbiter Data is uniquely placed to support management teams in:</p>
+                    <ul>
+                        <li>understand their technology</li>
+                        <li>opportunities for enhancement</li>
+                        <li>support IT & software purchases</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+ 
+{% endblock %}

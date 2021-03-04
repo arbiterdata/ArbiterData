@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .card{
+        max-width: 250px;
+    }
+    
+    .card-deck{
+        margin: 0 auto;
+    }
+
+</style>
+
+<div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">Data, its what we do</h2>
+</div>
+
+<div style="max-width: 1000px;" class="mx-auto p-3 ">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck">
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/databases.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Databases</h5>
+                    <p class="card-text text-center">Without organisation and structure data can become an unmaneagble nightmare.</p>
+                    <p class="card-text text-center">This is what tends to happen with Excel based record keeping.</p>
+                    <p class="card-text text-center">At Arbiter Data we are experts at converting Excel based record keeping into cloud databases.</p>
+                </div>
+            </div>
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/api.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">APIs</h5>
+                    <p class="card-text text-center">Application Programming Interfaces are at the working heart of integrated software sytems.</p>
+                    <p class="card-text text-center">APIs are how computer systems "talk" to each other.</p>
+                    <p class="card-text text-center">At Arbiter Data we can connect your systems so they talk to each other seamlessly and connect you to 3rd party data sources.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/webscraping.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Web scraping</h5>
+                    <p class="card-text text-center">Underneath every website is code.</p>
+                    <p class="card-text text-center">The predictable nature of the code means websites can be "scraped" for data using computer programs.</p>
+                    <p class="card-text text-center">This technique can be used to gather large amounts of data quickly, or collect data repeatadly and or check whether websites have changed.</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+ 
+{% endblock %}
