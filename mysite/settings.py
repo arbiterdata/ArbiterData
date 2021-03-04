@@ -26,7 +26,9 @@ SECRET_KEY = 'z!3b0obefs%t(&seh94ggnar#7cx)64*x6n&#k**t%27k%sl=+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    arbiterdata.herokuapp.com
+]
 
 
 # Application definition
