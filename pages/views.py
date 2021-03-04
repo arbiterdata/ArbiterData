@@ -13,7 +13,7 @@ def automation_view(request, *args, **kwargs):
     return render(request, "automation.html", {})
 
 def PowerBI_view(request, *args, **kwargs):
-    return render(request, "PowerBI.html", {})
+    return render(request, "powerbi.html", {})
 
 def consulting_view(request, *args, **kwargs):
     return render(request, "consulting.html", {})
