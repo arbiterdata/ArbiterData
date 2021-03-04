@@ -27,6 +27,7 @@ SECRET_KEY = 'z!3b0obefs%t(&seh94ggnar#7cx)64*x6n&#k**t%27k%sl=+'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
     'arbiterdata.herokuapp.com'
 ]
 
