@@ -28,7 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'arbiterdata.herokuapp.com'
+    'arbiterdata.herokuapp.com',
+    'arbiterdata.com',
+    'www.arbiterdata.com'
 ]
 
 
