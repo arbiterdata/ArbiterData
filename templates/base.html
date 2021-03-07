@@ -59,13 +59,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/components/carousel/">
 
+    <link rel="icon" href="{% static 'imgs/favicon.png' %}" type="image/png">
+
     <title>Arbiter Data</title>
   </head>
 
   <body class="p-3">
     <main>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">Arbiter Data</a>
+    <a class="navbar-brand" href="/" class="align-middle">
+      <img src="{% static 'imgs/favicon.png' %}" style="max-width: 35px; vertical-align: top;">
+    </a>
+    <a class="navbar-brand" href="/" class="align-middle">
+    Arbiter Data
+  </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
