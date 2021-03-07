@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<style>
+    .card{
+        max-width: 250px;
+    }
+    
+    .card-deck{
+        margin: 0 auto;
+    }
+
+</style>
+
+<div class="mx-auto pt-3">
+    <h2 class="text-center text-secondary">If Data is the new oil, Arbiter Data is your refinery</h2>
+</div>
+
+
+
+<div style="max-width: 1000px;" class="mx-auto p-3 ">
+    <div class="d-flex justify-content-center">
+        <div class="card-deck">
+            <div class="card fade-in">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/analytics.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Analytics</h5>
+                    <p class="card-text text-center">Businesses today can generate and store vast amounts of sales, marketing and other kinds of data.</p>
+                    <p class="card-text text-center">The challenge for many businesses is converting this data into insight.</p>
+                    <p class="card-text text-center">By utilising Python Arbiter Data can process and analyse vast amounts of data to provide insight to management teams. For example:</p>
+                    <ul>
+                        <li>at what times are sales made by month, week, day, hour, minute?</li>
+                        <li>which products are sold with each other?</li>
+                        <li>when do return customers return?</li>
+                    </ul>
+                    <p class="card-text text-center">And so on and so forth.</p>
+                    
+               </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/sigma.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Statistics</h5>
+                    <p class="card-text text-center">Statistics such as averages are a core part of virtually all management reporting.</p>
+                    <p class="card-text text-center">However few businesses utilise techniques such as:</p>
+                    <ul>
+                        <li>regression analysis</li>
+                        <li>hypothesis testing</li>
+                        <li>variance analysis</li>
+                    </ul>
+                    <p class="card-text text-center">At Arbiter Data we can run statistical analysis using Python to help management teams apply a scientic techniques to their data.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top mx-auto pt-2" style="max-width: 60px;" src="{% static 'imgs/question.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Financial Modelling</h5>
+                    <ul>
+                        <li>what if this changed?</li>
+                        <li>how much can we afford of this?</li>
+                        <li>how fast does this need to happen?</li>
+                    </ul>
+                    <p class="card-text text-center">Such questions are often associated with understanding and assessing business decisions.</p>
+                    <p class="card-text text-center">At Arbiter Data we can support traditional financial modelling and complement it with our array of data processing capabilities to provide management teams with the best possible information for decision making.</p>
+                </div>
+            </div>
+
+
+         </div>
+    </div>
+</div>
+
+ 
+{% endblock %}

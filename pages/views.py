@@ -23,3 +23,6 @@ def data_view(request, *args, **kwargs):
 
 def contact_view(request, *args, **kwargs):
     return render(request, "contact.html", {})
+
+def datascience_view(request, *args, **kwargs):
+    return render(request, "datascience.html", {})
